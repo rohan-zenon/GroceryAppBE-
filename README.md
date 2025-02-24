@@ -1,5 +1,11 @@
 
-### ✅ Prerequisites  
+### ✅ Prerequisites
+your frontend , Backend and Db are on same server  
+install mongodb from following link
+```
+https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/
+```
+
 Ensure you have the following installed on your system:  
 - **[Node.js](https://nodejs.org/)** (LTS version recommended)  
 - **npm** (Comes with Node.js)  
