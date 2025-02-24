@@ -14,6 +14,12 @@ npm install -g pm2
 pm2 start server.js --name grocery-backend
 pm2 save
 pm2 startup
+
+#[PM2] Freeze a process list on reboot via: few additional commands  
+#$ pm2 save
+
+#[PM2] Remove init script via:
+#$ pm2 unstartup systemd
 ```
 
 npm init -y
