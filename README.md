@@ -42,3 +42,9 @@ mongosh
 use grocerydb
 db.groceries.find()
 ```
+
+### note :- if you want to create mongodb server seprately ensure you enlist the mongodbserver ip in server.js files mentioned string if fe , be , db is in same server then do not change anything in the code.
+```
+// Connect to MongoDB
+mongoose.connect("mongodb://IPOfMongoDbServer:27017/grocerydb"
+```
