@@ -22,9 +22,11 @@ pm2 startup
 #$ pm2 unstartup systemd
 ```
 ### run your backend using these commands in runtime but its mostly not needed
+```
 npm init -y
 npm install express mongoose cors 
 node server.js
+```
 ###
 
 ### run following command on mongodb view your data
