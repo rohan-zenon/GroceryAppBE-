@@ -32,12 +32,12 @@ pm2 start server.js --name grocery-backend
 pm2 save
 pm2 startup
 pm2 list
-#pm2 stop grocery-backend  will stop your pm2 backend api 
+#pm2 stop grocery-backend  will stop your pm2 backend api  #to stop process 
 #[PM2] Freeze a process list on reboot via: few additional commands  
-#$ pm2 save
+#$ pm2 save #to save process
 
 #[PM2] Remove init script via:
-#$ pm2 unstartup systemd
+#$ pm2 unstartup systemd  #to remove the pm2 service from startup when server restarts or boots
 ```
 ### run your backend using these commands in runtime but its mostly not needed
 ```
