@@ -22,8 +22,11 @@ Ensure you have the following installed on your system:
 curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
 sudo apt install -y nodejs
 ```
-### install pm2 for daemon service running on server  
+### to get groceryapi production grade ready install pm2 for daemon service running on server 
 ```
+npm init -y
+npm install express mongoose cors
+npm install dotenv
 npm install -g pm2
 pm2 start server.js --name grocery-backend
 pm2 save
