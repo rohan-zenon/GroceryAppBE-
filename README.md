@@ -31,7 +31,8 @@ pm2 list
 ### run your backend using these commands in runtime but its mostly not needed
 ```
 npm init -y
-npm install express mongoose cors 
+npm install express mongoose cors
+npm install dotenv
 node server.js
 ```
 ###
