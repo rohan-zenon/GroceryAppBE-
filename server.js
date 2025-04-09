@@ -1,23 +1,28 @@
 
 
+require("dotenv").config(); // Load environment variables from .env file
+
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 5000; // Use port from .env or default to 5000
 
 // Middleware to parse JSON and enable CORS
 app.use(express.json());
 app.use(cors());
+
+// Log the Mongo URI to confirm it's being loaded correctly
+console.log("Mongo URI: ", process.env.MONGO_URI);
 
 // Connect to MongoDB
 mongoose.connect(process.env.MONGO_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
-.then(() => console.log("Connected to MongoDB"))
-.catch((err) => console.error("MongoDB connection error:", err));
+  .then(() => console.log("Connected to MongoDB"))
+  .catch((err) => console.error("MongoDB connection error:", err));
 
 // Define a Mongoose Schema and Model for Grocery Items
 const grocerySchema = new mongoose.Schema({
@@ -82,6 +87,7 @@ server.on("error", (err) => {
     console.error(err);
   }
 });
+
 
 
 
