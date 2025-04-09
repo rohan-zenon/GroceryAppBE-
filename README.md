@@ -65,3 +65,16 @@ MONGO_URI=mongodb://IPOfMongoDbServer:27017/grocerydb
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/55b96019-6fbe-4ea5-a849-5c8ba99fd521" />
 
 
+## Contributions
+
+- **Source Code Development**: The core functionality, application logic, and coding have been designed and implemented by Anup Dudhe.
+- **Infrastructure Setup**: Infrastructure components, such as server configurations, cloud services, and network setups, have been established and managed by Anup Dudhe.
+- **Deployment**: The deployment process, including CI/CD pipeline setup and environment configuration, was executed by Anup Dudhe to ensure seamless application deployment.
+
+## Developer Information
+
+- **Anup Dudhe**  
+  Software and Infrastructure Consultant  
+  CodeCloud Systems  
+  www.linkedin.com/in/anup-dudhe-3670331b1
+    
