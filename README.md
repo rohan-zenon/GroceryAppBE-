@@ -61,3 +61,7 @@ db.groceries.find()
 // Connect to MongoDB
 MONGO_URI=mongodb://IPOfMongoDbServer:27017/grocerydb
 ```
+### final api deployment reference :- 
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/55b96019-6fbe-4ea5-a849-5c8ba99fd521" />
+
+
