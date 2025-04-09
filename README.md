@@ -56,8 +56,8 @@ use grocerydb
 db.groceries.find()
 ```
 
-### note :- if you want to create mongodb server seprately ensure you enlist the mongodbserver ip in server.js files mentioned string if fe , be , db is in same server then do not change anything in the code.
+### note :- ensure you enlist mongodb://IPOfMongoDbServer:27017/grocerydb in the .env file or if you want to create mongodb server seprately ensure you enlist the mongodbserver ip in .env file.
 ```
 // Connect to MongoDB
-mongoose.connect("mongodb://IPOfMongoDbServer:27017/grocerydb"
+MONGO_URI=mongodb://IPOfMongoDbServer:27017/grocerydb
 ```
