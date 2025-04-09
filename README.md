@@ -24,6 +24,7 @@ sudo apt install -y nodejs
 ```
 ### to get groceryapi production grade ready install pm2 for daemon service running on server 
 ```
+npm install
 npm init -y
 npm install express mongoose cors
 npm install dotenv
