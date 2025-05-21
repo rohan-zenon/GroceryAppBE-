@@ -22,6 +22,17 @@ Ensure you have the following installed on your system:
 curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
 sudo apt install -y nodejs
 ```
+Clone git rep to prepare the Backend Directory
+	Navigate to your app directory (or clone from Git if applicable):
+
+	mkdir groceryapi && cd groceryapi
+
+	If cloned from GitHub:
+
+	git clone <your-repo-url>
+	cd <repo-folder-name>
+
+
 ### to get groceryapi production grade ready install pm2 for daemon service running on server 
 ```
 npm install
