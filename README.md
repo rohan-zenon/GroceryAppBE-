@@ -25,11 +25,7 @@ sudo apt install -y nodejs
 Clone git rep to prepare the Backend Directory
 	Navigate to your app directory (or clone from Git if applicable):
 
-	mkdir groceryapi && cd groceryapi
-
-	If cloned from GitHub:
-
-	git clone <your-repo-url>
+	git clone https://github.com/rohan-zenon/GroceryAppBE-.git
 	cd <repo-folder-name>
 
 
